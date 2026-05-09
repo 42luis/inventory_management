@@ -9,7 +9,9 @@ Data Source: https://www.kaggle.com/
 Dataset: "Retail Store Inventory Forecasting Dataset" (by Anirudh Singh Chauhan)
 
 ETL:
-Extract - froam a CSV dataset to perform Data Modeling into a Star Schema using SQL (sqlite3)
-    Creating dimension tables (product; store; calendar) and fact tables ()
+Extract - from a CSV dataset to perform Data Modeling into a Star Schema (or Galaxy Schema considering the Fact Constellation typology) using SQL (sqlite3)
+    Creating dimension tables (product; store; calendar) and fact tables (sales; orders; inventory)
+
 Transform - with Python for Data Analysis
+
 Load - into Power BI for Business Intelligence
